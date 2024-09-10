@@ -1,0 +1,89 @@
+@font-face {
+  font-family: roboto;
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+:root {
+  /* colors */
+
+  --clr-bc: hsl(234, 29%, 20%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-gray: hsl(231, 7%, 60%);
+  --clr-btn-charcoal: hsl(235, 18%, 26%);
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--clr-bc);
+}
+
+.main-container {
+  display: flex;
+  width: 800px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.right {
+  width: 60%;
+}
+
+.left {
+  width: 40%;
+}
+
+.left img {
+  width: 100%;
+}
+
+ul {
+  list-style-image: url(./assets/images/icon-success.svg);
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px 20px;
+  font-family: inherit;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid var(--clr-gray);
+}
+
+button {
+  font-family: inherit;
+  margin-top: 25px;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: var(--clr-btn-charcoal);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 50px;
+}
