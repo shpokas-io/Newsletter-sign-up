@@ -10,6 +10,7 @@
   --clr-white: hsl(0, 0%, 100%);
   --clr-gray: hsl(231, 7%, 60%);
   --clr-btn-charcoal: hsl(235, 18%, 26%);
+  --clr-tomato-red: hsl(4, 100%, 67%);
 }
 
 * {
@@ -114,6 +115,12 @@ h1 {
 
 .card-2 button {
   width: 100%;
+}
+
+.wrong-format .hiden {
+  display: none;
+  border: 1px solid var(--clr-tomato-red);
+  background-color: hsl(4, 64%, 85%);
 }
 
 @media(max-width: 768px) {
