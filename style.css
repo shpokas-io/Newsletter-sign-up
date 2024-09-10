@@ -63,6 +63,9 @@ form {
 
 label {
   margin-bottom: 10px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 input {
@@ -117,10 +120,22 @@ h1 {
   width: 100%;
 }
 
-.wrong-format .hiden {
+.error-message {
   display: none;
+  color: var(--clr-tomato-red);
+  font-size: 12px;
+}
+
+input.wrong-format {
   border: 1px solid var(--clr-tomato-red);
   background-color: hsl(4, 64%, 85%);
+}
+
+.label-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
 @media(max-width: 768px) {
