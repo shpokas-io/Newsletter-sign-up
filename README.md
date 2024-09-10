@@ -1,3 +1,5 @@
+WORK IN PROGRESS
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -30,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Newsletter-sign-up-LIVE](https://newsletter-sign-up-page-with-error.netlify.app)
 
 ## My process
 
